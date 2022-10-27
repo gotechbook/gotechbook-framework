@@ -8,9 +8,11 @@ require (
 	github.com/gotechbook/gotechbook-framework-acceptor v0.0.0-20221027022737-7b0e332b5ee6
 	github.com/gotechbook/gotechbook-framework-config v0.0.0-20221025030424-9905e43e4214
 	github.com/gotechbook/gotechbook-framework-context v0.0.0-20221020021700-654ddf6fb381
+	github.com/gotechbook/gotechbook-framework-encoding v0.0.0-20221024073428-2130b1cc8b84
 	github.com/gotechbook/gotechbook-framework-errors v0.0.0-20221019090040-427b73f538e7
 	github.com/gotechbook/gotechbook-framework-logger v0.0.0-20221018080147-c7a6705fa445
 	github.com/gotechbook/gotechbook-framework-metrics v0.0.0-20221020033940-799367ca898b
+	github.com/gotechbook/gotechbook-framework-net v0.0.0-20221026095253-c9860d03733c
 	github.com/gotechbook/gotechbook-framework-proto v0.0.0-20221020034043-89a5762a952a
 	github.com/gotechbook/gotechbook-framework-tracing v0.0.0-20221020054250-0e3de131eff2
 	github.com/gotechbook/gotechbook-framework-utils v0.0.0-20221027014534-472fdebc4c1e
@@ -36,7 +38,6 @@ require (
 	github.com/garyburd/redigo v1.6.4 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/btree v1.0.1 // indirect
