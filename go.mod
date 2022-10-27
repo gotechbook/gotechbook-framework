@@ -5,19 +5,27 @@ go 1.19
 require (
 	github.com/go-playground/validator/v10 v10.11.1
 	github.com/golang/protobuf v1.5.2
+	github.com/gotechbook/gotechbook-framework-acceptor v0.0.0-20221027022737-7b0e332b5ee6
 	github.com/gotechbook/gotechbook-framework-config v0.0.0-20221025030424-9905e43e4214
+	github.com/gotechbook/gotechbook-framework-context v0.0.0-20221020021700-654ddf6fb381
+	github.com/gotechbook/gotechbook-framework-errors v0.0.0-20221019090040-427b73f538e7
 	github.com/gotechbook/gotechbook-framework-logger v0.0.0-20221018080147-c7a6705fa445
 	github.com/gotechbook/gotechbook-framework-metrics v0.0.0-20221020033940-799367ca898b
 	github.com/gotechbook/gotechbook-framework-proto v0.0.0-20221020034043-89a5762a952a
+	github.com/gotechbook/gotechbook-framework-tracing v0.0.0-20221020054250-0e3de131eff2
 	github.com/gotechbook/gotechbook-framework-utils v0.0.0-20221027014534-472fdebc4c1e
+	github.com/opentracing/opentracing-go v1.2.0
 	github.com/stretchr/testify v1.8.1
 	github.com/topfreegames/go-workers v1.1.0
+	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
+	google.golang.org/grpc v1.50.1
 )
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible // indirect
 	github.com/Microsoft/go-winio v0.6.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/bitly/go-simplejson v0.5.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
@@ -33,9 +41,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/go-cmp v0.5.8 // indirect
-	github.com/gorilla/websocket v1.4.2 // indirect
-	github.com/gotechbook/gotechbook-framework-context v0.0.0-20221020021700-654ddf6fb381 // indirect
-	github.com/gotechbook/gotechbook-framework-errors v0.0.0-20221019090040-427b73f538e7 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
@@ -66,7 +72,6 @@ require (
 	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0 // indirect
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/raft/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0 // indirect
@@ -89,7 +94,6 @@ require (
 	golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
-	google.golang.org/grpc v1.50.1 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect

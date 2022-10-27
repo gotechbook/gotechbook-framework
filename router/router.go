@@ -5,6 +5,7 @@ import (
 	"errors"
 	logger "github.com/gotechbook/gotechbook-framework-logger"
 	"github.com/gotechbook/gotechbook-framework-proto/proto"
+	"github.com/gotechbook/gotechbook-framework/discovery"
 	"github.com/gotechbook/gotechbook-framework/message"
 	"github.com/gotechbook/gotechbook-framework/modules"
 	"github.com/gotechbook/gotechbook-framework/route"
@@ -18,7 +19,7 @@ var (
 
 // Router struct
 type Router struct {
-	serviceDiscovery modules.Discovery
+	serviceDiscovery discovery.Discovery
 	routesMap        map[string]RoutingFunc
 }
 
@@ -38,7 +39,7 @@ func New() *Router {
 }
 
 // SetServiceDiscovery sets the sd client
-func (r *Router) SetServiceDiscovery(sd modules.Discovery) {
+func (r *Router) SetServiceDiscovery(sd discovery.Discovery) {
 	r.serviceDiscovery = sd
 }
 
