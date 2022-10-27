@@ -6,7 +6,6 @@ import (
 	acceptor "github.com/gotechbook/gotechbook-framework-acceptor"
 	encoding "github.com/gotechbook/gotechbook-framework-encoding"
 	logger "github.com/gotechbook/gotechbook-framework-logger"
-	"github.com/gotechbook/gotechbook-framework-net/constants"
 	"github.com/gotechbook/gotechbook-framework-proto/proto"
 	"github.com/gotechbook/gotechbook-framework/discovery"
 	"github.com/gotechbook/gotechbook-framework/grpc"
@@ -91,7 +90,7 @@ func (a *Remote) ResponseMID(ctx context.Context, mid uint, v interface{}, isErr
 		err = isError[0]
 	}
 	if mid <= 0 {
-		return constants.ErrSessionOnNotify
+		return ErrSessionOnNotify
 	}
 	switch d := v.(type) {
 	case []byte:

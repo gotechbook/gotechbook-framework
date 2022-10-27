@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/go-playground/validator/v10 v10.11.1
+	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
 	github.com/gotechbook/gotechbook-framework-acceptor v0.0.0-20221027022737-7b0e332b5ee6
 	github.com/gotechbook/gotechbook-framework-config v0.0.0-20221025030424-9905e43e4214
@@ -12,14 +13,15 @@ require (
 	github.com/gotechbook/gotechbook-framework-errors v0.0.0-20221019090040-427b73f538e7
 	github.com/gotechbook/gotechbook-framework-logger v0.0.0-20221018080147-c7a6705fa445
 	github.com/gotechbook/gotechbook-framework-metrics v0.0.0-20221020033940-799367ca898b
-	github.com/gotechbook/gotechbook-framework-net v0.0.0-20221026095253-c9860d03733c
 	github.com/gotechbook/gotechbook-framework-proto v0.0.0-20221020034043-89a5762a952a
 	github.com/gotechbook/gotechbook-framework-tracing v0.0.0-20221020054250-0e3de131eff2
 	github.com/gotechbook/gotechbook-framework-utils v0.0.0-20221027014534-472fdebc4c1e
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/stretchr/testify v1.8.1
 	github.com/topfreegames/go-workers v1.1.0
+	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
 	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
+	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0
 	google.golang.org/grpc v1.50.1
 )
 
@@ -38,6 +40,7 @@ require (
 	github.com/garyburd/redigo v1.6.4 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/btree v1.0.1 // indirect
@@ -70,13 +73,11 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20201229170055-e5319fda7802 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0 // indirect
 	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/raft/v3 v3.6.0-alpha.0 // indirect
 	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0 // indirect
-	go.etcd.io/etcd/tests/v3 v3.6.0-alpha.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.26.1 // indirect
 	go.opentelemetry.io/otel v1.2.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.1.0 // indirect
